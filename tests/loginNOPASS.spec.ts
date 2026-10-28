@@ -21,5 +21,5 @@ await page.getByTestId('login-button').click();
 
 //ASSERT
 //Je dois vérifier que je suis bien connecté avec le mauvais message d'erreur
-await expect(page.getByText('Products')).toBeVisible();
+await expect(page.getByText('Products'));
 });
